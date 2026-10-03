@@ -16,7 +16,28 @@
 
 ## 发论文时的常用写法
 
-`_pages/about.md` 里保留了两种论文条目格式:卡片式(`paper-box`,带配图)和列表式(一行一条),照着注释里的示例抄即可。
+在 `_pages/about.md` 的 Publications 栏目下,两种条目格式任选:
+
+卡片式(带配图,配图先放进 `images/`):
+
+```html
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">VENUE YEAR</div><img src='images/你的配图.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[论文标题](论文链接)
+
+**你的名字**, 合作者 A, 合作者 B
+
+- 一句话介绍这篇论文。
+</div>
+</div>
+```
+
+列表式(一行一条):
+
+```markdown
+- [论文标题](论文链接), 合作者, **会议年份**
+```
 
 ## 以后想启用 Google Scholar 引用数自动更新(可选)
 
