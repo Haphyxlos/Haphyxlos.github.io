@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Haphyxlos - Homepage"
+title                    : "Haphyxlos"
 description              : "Personal homepage of Haphyxlos. Research interests: interpretability and mechanistic analysis of large language models."
 repository               : "Haphyxlos/Haphyxlos.github.io"
 google_scholar_stats_use_cdn : true
